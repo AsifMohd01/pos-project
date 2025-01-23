@@ -8,10 +8,11 @@ import Analytics from "./pages/Analytics"
 import { CartProvider } from "./context/CartContext"
 import { CountryProvider, useCountry } from "./context/CountryContext"
 import messages from "./i18n/messages"
-import Cart from "./Pages/Cart"
+
 import Checkout from "./Pages/Checkout"
 import Receipt from "./Pages/Receipt"
 import { ToastContainer } from "react-toastify"
+import Cart from "./Pages/Cart"
 
 function App() {
   const { selectedOption } = useCountry()
