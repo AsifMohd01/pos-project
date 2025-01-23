@@ -12,6 +12,7 @@ import { ToastContainer } from "react-toastify"
 import Cart from "./Pages/Cart"
 import Checkout from "./Pages/Checkout"
 import Receipt from "./pages/Receipt"
+
 function App() {
   const { selectedOption } = useCountry()
 
