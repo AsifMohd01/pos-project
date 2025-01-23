@@ -9,8 +9,8 @@ import { CartProvider } from "./context/CartContext"
 import { CountryProvider, useCountry } from "./context/CountryContext"
 import messages from "./i18n/messages"
 import { ToastContainer } from "react-toastify"
-import Cart from "./Pages/Cart"
-import Checkout from "./Pages/Checkout"
+import Cart from "./pages/Cart"
+import Checkout from "./pages/Checkout"
 import Receipt from "./pages/Receipt"
 
 function App() {
