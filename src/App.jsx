@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar"
 import Services from "./pages/Services"
 import Analytics from "./pages/Analytics"
 import { CartProvider } from "./context/CartContext"
-import { ThemeProvider } from "./context/ThemeContext"
 import { CountryProvider, useCountry } from "./context/CountryContext"
 import messages from "./i18n/messages"
 import Cart from "./Pages/Cart"
@@ -19,7 +18,7 @@ function App() {
 
   return (
     <IntlProvider messages={messages[selectedOption.locale.split("-")[0]]} locale={selectedOption.locale}>
-      <ThemeProvider>
+  
         <CartProvider>
           <Router>
             <ToastContainer/>
@@ -37,7 +36,7 @@ function App() {
             </div>
           </Router>
         </CartProvider>
-      </ThemeProvider>
+    
     </IntlProvider>
   )
 }

@@ -3,14 +3,15 @@ import { Link, useLocation } from "react-router-dom"
 import { motion } from "framer-motion"
 import { useIntl } from "react-intl"
 import { useCart } from "../context/CartContext"
-import { useTheme } from "../context/ThemeContext"
+
 import { useCountry } from "../context/CountryContext"
-import { Sun, Moon, ShoppingCart } from "lucide-react"
+import { ShoppingCart } from "lucide-react"
+
 
 const Navbar = () => {
   const intl = useIntl()
   const { cart } = useCart()
-  const { darkMode, toggleDarkMode } = useTheme()
+ 
   const { selectedOption, changeCountryOption, countryOptions } = useCountry()
   const location = useLocation();
   const cartItemsCount = cart.reduce((sum, item) => sum + item.quantity, 0)
@@ -53,9 +54,7 @@ const Navbar = () => {
         </select>
         }
 
-          <button onClick={toggleDarkMode} className="text-gray-800 dark:text-white">
-            {darkMode ? <Sun className="w-6 h-6" /> : <Moon className="w-6 h-6" />}
-          </button>
+          
         </div>
       </div>
     </nav>
