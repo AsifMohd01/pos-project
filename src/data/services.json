@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "name": "Fitness Class",
+      "price": 20,
+      "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "category": "Fitness"
+    },
+    {
+      "id": 2,
+      "name": "Therapy Session",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "category": "Health"
+    },
+    {
+      "id": 3,
+      "name": "Workshop",
+      "price": 50,
+      "image": "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "category": "Education"
+    },
+    {
+      "id": 4,
+      "name": "Consultation",
+      "price": 100,
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "category": "Business"
+    },
+    {
+      "id": 5,
+      "name": "Yoga Class",
+      "price": 30,
+      "image": "https://images.unsplash.com/photo-1584009105315-3274b0d2c28b?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Fitness"
+    },
+    {
+      "id": 6,
+      "name": "Nutrition Counseling",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1589927986089-35812388d1d1?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Health"
+    },
+    {
+      "id": 7,
+      "name": "Photography Workshop",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1501748042729-5ed2c5e2bdb2?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Education"
+    },
+    {
+      "id": 8,
+      "name": "Business Coaching",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1593062539780-1c56c6f1b1b8?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Business"
+    },
+    {
+      "id": 9,
+      "name": "Meditation Retreat",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1555691847-b2b3d3e2d8da?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Health"
+    },
+    {
+      "id": 10,
+      "name": "Web Development Bootcamp",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Education"
+    },
+    {
+      "id": 11,
+      "name": "Personalized Fitness Plan",
+      "price": 90,
+      "image": "https://images.unsplash.com/photo-1587576969440-0f7f7e8a1b7a?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Fitness"
+    },
+    {
+      "id": 12,
+      "name": "Life Coaching Session",
+      "price": 130,
+      "image": "https://images.unsplash.com/photo-1515165568254-30e49a0f8c3b?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Health"
+    },
+    {
+      "id": 13,
+      "name": "Digital Marketing Workshop",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1573164574572-6b3b6db4e1d9?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Business"
+    },
+    {
+      "id": 14,
+      "name": "Coding Bootcamp",
+      "price": 220,
+      "image": "https://images.unsplash.com/photo-1580912979257-2ffea3a1eaf1?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Education"
+    },
+    {
+      "id": 15,
+      "name": "Business Strategy Workshop",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1593642634373-5cfc8a2b8b2a?crop=entropy&cs=tinysrgb&fit=max&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Business"
+    }
+  ]
+  
